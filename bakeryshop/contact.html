@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+  <title>お問い合わせ</title>
+</head>
+
+
+<body>
+<header class="header">
+  <div class="header-area">
+    <div class="header-logo">
+      <a href="index.html">BAKERY&nbsp;SHOP</a>
+    </div>
+
+    <nav class="pc">
+        <ul class="gnav-menu">
+          <li class="gnav-item"><a href="index.html#menu">おすすめ商品<span>MENU</span></a></li>
+          <li class="gnav-item"><a href="index.html#quality">こだわり<span>QUALITY</span></a></li>
+          <li class="gnav-item"><a href="index.html#news">お知らせ<span>NEWS</span></a></li>
+          <li class="gnav-item"><a href="index.html#shop">店舗情報<span>SHOP</span></a></li>
+          <li class="gnav-item"><a href="contact.html">お問い合わせ<span>CONTACT</span></a></li>
+        </ul>
+    </nav>
+
+    <nav class="sp">
+      <div class="gnav-toggle">
+        <input id="gnav-input" type="checkbox" class="gnav-hidden">
+        <label id="gnav-open" for="gnav-input"><span></span></label>
+        <label class="gnav-unshown" id="gnav-close" for="gnav-input"></label> <!-- トグル用ボタン -->
+        <div id="gnav-content">
+            <ul class="sp-gnav-menu">
+                <li class="sp-gnav-item"><a href="index.html#menu">おすすめ商品<span>MENU</span></a></li>
+                <li class="sp-gnav-item"><a href="index.html#quality">こだわり<span>QUALITY</span></a></li>
+                <li class="sp-gnav-item"><a href="index.html#news">お知らせ<span>NEWS</span></a></li>
+                <li class="sp-gnav-item"><a href="index.html#shop">店舗情報<span>SHOP</span></a></li>
+                <li class="sp-gnav-item"><a href="contact.html">お問い合わせ<span>CONTACT</span></a></li>
+            </ul>
+        </div>
+      </div> 
+    </nav>
+  </div>
+</header>
+
+
+<main>
+  <div class="contact">
+    <img src="img/メールの無料アイコン素材.svg" alt="">
+    <h1 class="contact-title">
+      お問い合わせ<span>CONTACT</span>
+    </h1>
+
+    <div class="contact-form">
+      <p>当店に関するお問い合わせがございましたら､下記にご入力の上送信してください。</p>
+        <form action="" method="post">
+          <dl class="form-items">
+            <div class="form-item">
+              <dt>お名前</dt>
+              <dd><input type="text" name="userName"></dd>
+            </div>
+
+            <div class="form-item">
+              <dt>メールアドレス</dt>
+              <dd><input type="email" name="userEmail"></dd>
+            </div>
+
+            <div class="form-item">
+              <dt>お問い合わせ種別</dt>
+                <dd>
+                  <select name="messageType">
+                    <option value="選択してください">選択してください</option>
+                    <option value="商品について">商品について</option>
+                    <option value="大口注文について">大口注文について</option>
+                    <option value="その他のお問い合わせについて">その他のお問い合わせについて</option>
+                  </select>
+                </dd>
+            </div>
+
+            <div class="form-item">
+              <dt>お問い合わせ内容</dt>
+              <dd><textarea name="message"></textarea></dd>
+            </div>
+          </dl>
+
+            <div class="form-submit">
+              <input type="submit" value="送信する">
+            </div>
+    </div>
+  </div>
+</main>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 15" width="100%">
+  <path d="M 0 8 Q 12.8 -8 25.6 8 Q 38.4 -8 51.2 8 Q 64 -8 76.8 8 Q 89.6 -8 102.4 8 Q 115.2 -8 128 8 Q 140.8 -8 153.6 8 Q 166.4 -8 179.2 8 Q 192 -8 204.8 8 Q 217.6 -8 230.4 8 Q 243.2 -8 256 8 Q 268.8 -8 281.6 8 Q 294.4 -8 307.2 8 Q 320 -8 332.8 8 Q 345.6 -8 358.4 8 Q 371.2 -8 384 8 Q 396.8 -8 409.6 8 Q 422.4 -8 435.2 8 Q 448 -8 460.8 8 Q 473.6 -8 486.4 8 Q 499.2 -8 512 8 Q 524.8 -8 537.6 8 Q 550.4 -8 563.2 8 Q 576 -8 588.8 8 Q 601.6 -8 614.4 8 Q 627.2 -8 640 8 Q 652.8 -8 665.6 8 Q 678.4 -8 691.2 8 Q 704 -8 716.8 8 Q 729.6 -8 742.4 8 Q 755.2 -8 768 8 Q 780.8 -8 793.6 8 Q 806.4 -8 819.2 8 Q 832 -8 844.8 8 Q 857.6 -8 870.4 8 Q 883.2 -8 896 8 Q 908.8 -8 921.6 8 Q 934.4 -8 947.2 8 Q 960 -8 972.8 8 Q 985.6 -8 998.4 8 Q 1011.2 -8 1024 8 Q 1036.8 -8 1049.6 8 Q 1062.4 -8 1075.2 8 Q 1088 -8 1100.8 8 Q 1113.6 -8 1126.4 8 Q 1139.2 -8 1152 8 Q 1164.8 -8 1177.6 8 Q 1190.4 -8 1203.2 8 Q 1216 -8 1228.8 8 Q 1241.6 -8 1254.4 8 Q 1267.2 -8 1280 8 Q 1292.8 -8 1305.6 8 L 1280 20 L 0 20 Z" fill="#9e5812"></path>
+</svg>
+<footer>
+  <div class="footer-all">
+    <div class="pc-footer">
+      <ul class="footer-menu">
+        <li class="footer-item"><a href="index.html">トップページ</a> |</li>
+        <li class="footer-item"><a href="index.html#menu">&nbsp;おすすめ商品</a> |</li>
+        <li class="footer-item"><a href="index.html#quality">&nbsp;こだわり</a> |</li>
+        <li class="footer-item"><a href="index.html#news">&nbsp;お知らせ</a> |</li>
+        <li class="footer-item"><a href="index.html#shop">&nbsp;店舗紹介</a> |</li>
+        <li class="footer-item"><a href="contact.html">&nbsp;お問い合わせ</a></li>
+      </ul>
+    </div>
+
+    <div class="sp-footer">
+      <ul class="footer-menu">
+        <li class="footer-item"><a href="index.html">トップページ</a></li>
+        <li class="footer-item"><a href="index.html#menu">&nbsp;おすすめ商品</a></li>
+        <li class="footer-item"><a href="#quality">&nbsp;こだわり</a></li>
+        <li class="footer-item"><a href="index.html#news">&nbsp;お知らせ</a></li>
+        <li class="footer-item"><a href="index.html#shop">&nbsp;店舗紹介</a></li>
+        <li class="footer-item"><a href="contact.html">&nbsp;お問い合わせ</a></li>
+      </ul>
+    </div>
+    
+    <div class="sns">
+      <a href="https://www.instagram.com/?locale=ja_JP" target="_blank"><img src="img/instagram.png" alt="インスタ"></a>
+      <a href="https://www.facebook.com/?locale2=ja_JP&_rdr"  target="_blank"><img src="img/facebook.png" alt="フェイスブック"></a>
+      <a href="https://x.com/" target="_blank"><img src="img/logo-white.png" alt="X"></a>
+    </div>
+
+    <div class="copy">
+      <small>&copy;bakery shop. All rights reserved.</small>
+    </div>
+  </div>
+</footer>
+
+
+
+<!---トップへ戻るボタンをふわっと出す&滑らかに---> 
+<script>
+  jQuery(function() {
+    var pagetop = $('#page_top');   
+    pagetop.hide();
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {  //100pxスクロールしたら表示
+            pagetop.fadeIn();
+        } else {
+            pagetop.fadeOut();
+        }
+    });
+    pagetop.click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500); //0.5秒かけてトップへ移動
+        return false;
+    });
+});
+</script>
+
+</body>
+</html>
